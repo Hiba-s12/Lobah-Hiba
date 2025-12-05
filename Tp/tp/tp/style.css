@@ -1,0 +1,144 @@
+
+body {
+    scroll-behavior: smooth;
+    background: #f5f6fa;
+    color: #222;
+    transition: 0.3s;
+}
+
+.custom-nav {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #4ca1af !important;
+}
+
+.parallax {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.header-content {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.header-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+h2 {
+    border-left: 6px solid #4ca1af;
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+
+.progress {
+    height: 12px;
+    margin-bottom: 20px;
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background: linear-gradient(to right, #4ca1af, #2c3e50);
+}
+
+.timeline {
+    border-left: 4px solid #4ca1af;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-dot {
+    width: 18px;
+    height: 18px;
+    background: #4ca1af;
+    border-radius: 50%;
+    position: absolute;
+    left: -11px;
+    top: 0;
+}
+
+.project-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05) rotate3d(1,1,0,5deg);
+}
+
+.footer {
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+.dark-mode {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .section {
+    background: #1e1e1e;
+}
+
+.dark-mode .footer {
+    background: black;
+}
+
+.theme-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background: #4ca1af;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.backTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #4ca1af;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
